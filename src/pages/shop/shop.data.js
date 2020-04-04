@@ -1,8 +1,8 @@
 const SHOP_DATA = [
     {
       id: 1,
-      title: 'Hats',
-      routeName: 'hats',
+      title: 'Sapkák',
+      routeName: 'Sapkák',
       items: [
         {
           id: 1,
@@ -62,8 +62,8 @@ const SHOP_DATA = [
     },
     {
       id: 2,
-      title: 'Sneakers',
-      routeName: 'sneakers',
+      title: 'Tornacipők',
+      routeName: 'tornacipők',
       items: [
         {
           id: 1,
@@ -117,8 +117,8 @@ const SHOP_DATA = [
     },
     {
       id: 3,
-      title: 'Jackets',
-      routeName: 'jackets',
+      title: 'Kabátok',
+      routeName: 'kabátok',
       items: [
         {
           id: 1,
@@ -154,8 +154,8 @@ const SHOP_DATA = [
     },
     {
       id: 4,
-      title: 'Womens',
-      routeName: 'womens',
+      title: 'Hölgyek',
+      routeName: 'hölgyek',
       items: [
         {
           id: 1,
@@ -203,8 +203,8 @@ const SHOP_DATA = [
     },
     {
       id: 5,
-      title: 'Mens',
-      routeName: 'mens',
+      title: 'Férfiak',
+      routeName: 'férfiak',
       items: [
         {
           id: 1,
