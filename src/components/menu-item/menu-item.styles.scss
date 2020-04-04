@@ -5,7 +5,7 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    border: 1px solid black;
+    border: 1px solid $color-font;
     margin: 0 7.5px 15px;
     overflow: hidden;
     padding: 0;
@@ -47,8 +47,8 @@
         align-items: center;
         align-items: center;
         justify-content: center;
-        border: 1px solid black;
-        background-color: rgba(white, .7);
+        border: 1px solid $color-font;
+        background-color: rgba($color-white, .7);
         position: absolute;
 
         .title {
@@ -56,7 +56,7 @@
             margin-top: 0;
             margin-bottom: 6px;
             font-size: 22px;
-            color: #4a4a4a;
+            color: $color-greyDark;
             text-transform: uppercase;
         }
 
