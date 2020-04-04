@@ -1,6 +1,9 @@
 import React from 'react';
 
 import FormInput from '../form-input/form-input.component';
+import CustomButton from '../custom-button/custom-button.component';
+
+import { signInWithGoogle } from '../../firebase/firebase.utils';
 
 class SignIn extends React.Component {
     constructor(props) {
@@ -27,7 +30,7 @@ class SignIn extends React.Component {
     render() {
         return(
             <div className="sign-in">
-                <h2>Van már fiókom</h2>
+                <h2 className="title">Van már fiókom</h2>
                 <span>Bejelentkezés emaillel és jelszóval</span>
 
                 <form onSubmit={this.handleSubmit}>
@@ -48,8 +51,12 @@ class SignIn extends React.Component {
                         label="jelszó"
                         required 
                     />
-
-                    <input type="submit" value="Bejelentkezés"/>
+                    <div className="buttons">
+                        <CustomButton type="submit"> Bejelentkezés </CustomButton>
+                        <CustomButton onClick = {signInWithGoogle} isGoogleSignIn>
+                            Bejelentkezés  Google fiókkal
+                        </CustomButton>
+                    </div>
                 </form>
             </div>
         )
